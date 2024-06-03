@@ -1,0 +1,8 @@
+__default__:
+  name: "rule={rule},{wildcards}" # -J
+  partition: norm # -p
+  time: 4320 # -t
+  cpusPerTask: 16 # -c
+  nodes: 1
+  output: "results/logs_slurm/{rule}.{wildcards}.{jobid}.out"
+  error: "results/logs_slurm/{rule}.{wildcards}.{jobid}.err"

@@ -4,6 +4,7 @@ tests/test_output
 tests/**/Metrics
 docs/_build/*
 config/config_biosamples.tsv
+ABC_Pipeline-*.out
 # emacs backups
 *~
 
